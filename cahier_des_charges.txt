@@ -1,0 +1,254 @@
+Page d’accueil
+
+Menu de navigation modèle en en-tête : 
+	- Logo de l’entreprise (logo_like_quality.jpg)
+	- 6 boutons (différentes pages du site) : « Accueil » (menant vers la page d’accueil), « Conseil et Accompagnement » (menant vers la page Conseil et accompagnement), « Audit » (menant vers la page Audit), « Formation Professionnelle » (menant vers la page Formation Professionnelle), « A propos » (menant vers la page A propos), « Contactez-moi » (menant vers la page Contact)
+	- Un bouton de recherche personnalisée
+
+Section introductive : 
+	- Nom de l’entreprise (reprenant exactement la même typographie que sur le logo)
+	- Slogan : « L’expertise en systèmes de management de la Qualité, de la Sécurité et de l’Environnement »
+
+Section « Découvrez nos services » :
+	- Sous-section 1 : 
+		o Image « conseil_accompagnement.jpg »
+		o Titre : « Conseil et Accompagnement »
+		o Sous-titre : « Des solutions sur mesure pour atteindre vos objectifs »
+		o Texte : « Nos prestations de conseil et d’accompagnement sont conçues pour vous aider à structurer vos projets, prendre les bonnes décisions et améliorer durablement vos performances. Nous intervenons à vos côtés avec une approche personnalisée, pragmatique et orientée résultats. »
+		o Sous-titre : « Une approche centrée sur vos besoins »
+		o Texte : « Chaque accompagnement débute par une phase de diagnostic et d’analyse afin de comprendre votre contexte, vos enjeux et vos objectifs. Nous construisons ensuite des solutions adaptées à la réalité de votre organisation, qu’il s’agisse de stratégie ou d’optimisation de vos pratiques. »
+		o Bouton « En savoir plus » menant vers la page Conseil et accompagnement
+	-	Sous-section 2 :
+		o Image « audit.jpg »
+		o Titre : « Audit »
+		o Sous-titre : « Analysez votre situation et identifiez les leviers de progrès. »
+		o Texte : « Nos prestations d’audit vous permettent d’obtenir une vision objective et détaillée de votre situation actuelle. Grâce à une analyse rigoureuse et structurée, nous identifions les points forts, les dysfonctionnements et les opportunités d’améliorations afin de vous aider à prendre des décisions claires. »
+		o Sous-titre : « Quels sont les différents types d’audit ? »
+		o Texte : « - Audit interne en entreprise     - Audit externe seconde partie     - Audit externe tierce partie »
+		o Sous-titre : « Pourquoi réaliser un audit ? »
+		o Texte : « - Évaluer l’efficacité de vos pratiques et processus     - Identifier les risques et les axes d’amélioration     - Améliorer la performance globale     - Disposer d’un diagnostic clair avant toute prise de décision ou transformation »
+		o Bouton « En savoir plus » menant vers la page Audit
+	- Sous-section 3 :
+		o Image « formation_professionnelle.jpg »
+		o Titre : « Formation Professionnelle »
+		o Sous-titre : « Développez les compétences. Renforcez la performance. »
+		o Texte : « Nos prestations de formation professionnelle accompagnent les individus et les organisations dans le développement de compétences durables et opérationnelles. Conçues pour répondre aux besoins concrets du terrain, nos formations allient expertise, pédagogie active et accompagnement personnalisé. »
+		o Sous-titre : « Des formations adaptées à vos enjeux »
+		o Texte : « Chaque formation est construite à partir d’une analyse précise de vos besoins, de votre contexte et de vos objectifs. Les contenus, formats et modalités pédagogiques sont personnalisés afin de garantir une montée en compétences efficace et directement applicable. »
+		o Bouton « En savoir plus » menant vers la page Formation Professionnelle
+
+Section « Mes valeurs » :
+	- Image « valeurs.jpg »
+	- Titre : « L’ETHIQUE et LA CONFIANCE »
+	- Texte : « Trouver les solutions les plus adaptées en respectant la déontologie et la vertu, c’est la garantie d’une relation saine avec le client. »
+	- Titre : « L’OUVERTURE D’ESPRIT »
+	- Texte : « Être d’accord avec les propositions d’autrui est une qualité fondamentale. Et en être capable surtout ! Être plus efficace en apprenant les uns des autres. »
+	- Titre : « LA CREATIVITE »
+	- Texte : « Sortir des sentiers battus ! Cela va de pair avec l’ouverture d’esprit et c’est ce qui fait la force d’une collaboration. »
+	- Titre : « LA FLEXIBILITE »
+	- Texte : « S’adapter aux fluctuations et changements internes chez le client ! Voilà ici une valeur essentielle afin de collaborer en toute sérénité. »
+
+Section « Ce que nous pouvons vous apportez » :
+	- Titre : « La Qualité »
+	- Texte : Créer un texte sur la qualité (QSE)
+	- Titre : « Santé et Sécurité au Travail »
+	- Texte : Créer un texte sur la santé et la sécurité au travail (QSE)
+	- Titre : « La Démarche Environnementale »
+	- Texte : Créer un texte sur la démarche environnementale (QSE)
+	- Titre : « Le Développement Durable »
+	- Texte : Créer un texte sur le développement durable (QSE)
+	- Bouton « En savoir plus » menant vers la page A propos
+
+Pied de page modèle : 
+- Texte : « Mentions légales » (menant vers la page Mentions Légales)
+- Texte : « Politique de confidentialité » (menant vers la page Politique de Confidentialité)
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Page Conseil et Accompagnement
+
+Menu de navigation modèle en en-tête
+
+Titre : « Conseil et Accompagnement »
+Sous-titre : « Nos domaines d’intervention »
+Texte : « * Analyse et diagnostic de votre situation     * Définition de stratégies claires et réalistes     * Aide à la prise de décision     * Optimisation des processus et des performances     * Accompagnement au changement     * Suivi et ajustement des actions mises en place
+Sous-titre : « Une méthodologie claire et efficace »
+Texte : « * Diagnostic : analyse approfondie de l’existant et identification des enjeux clés     * Recommandations : élaboration de solutions concrètes et priorisées     * Accompagnement opérationnel : mise en œuvre des actions avec un suivi régulier     * Évaluation et ajustement : mesure des résultats et ajustement des actions si nécessaire »
+Sous-titre : « Ce que vous y gagnez »
+Texte : « * Une vision claire et structurée     * Des solutions adaptées à votre contexte     * Un accompagnement humain et de proximité     * Des résultats mesurables et durables »
+Sous-titre : « A qui s’adresse cet accompagnement ? »
+Texte : « * Entrepreneurs et dirigeants     * PME et grandes organisations * Porteurs de projets     * Équipes en phase de transformation ou de croissance »
+Image « logo_sgs.png »
+Image « logo_althea.png »
+Image « logo_arinite.webp »
+Image « logo_sofis.jpg »
+Bouton « Contactez moi » menant vers la page Contact
+
+Pied de page modèle
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Page Audit
+
+Menu de navigation modèle en en-tête
+
+Titre : « Audit »
+Sous-titre : « Pourquoi réaliser un audit ? »
+Texte : « * Évaluer l’efficacité de vos pratiques et processus     * Identifier les risques et les opportunités     * Améliorer la performance globale     * Disposer d’un diagnostic clair avant toute prise de décision ou transformation »
+Sous-titre : « Nos domaines d’audit »
+Texte : « * Audit organisationnel et opérationnel     * Audit des processus     * Audit de performance     * Audit de conformité »
+Sous-titre : « Notre méthodologie »
+Texte : « * Cadrage et définition des objectifs : compréhension de votre contexte, de vos enjeux et de vos attentes     * Analyse de l’existant : étude des documents, entretiens, observations et indicateurs clés     * Évaluation et diagnostic : identification des écarts, des risques et des leviers d’amélioration     * Restitution et recommandations : remise d’un rapport clair et structuré incluant des recommandations concrètes »
+Sous-titre : « Ce que vous obtenez »
+Texte : « * Un diagnostic objectif et indépendant     * Une analyse approfondie et factuelle     * Un rapport détaillé et compréhensible     * Des recommandations opérationnelles     * Une base solide pour définir vos actions futures »
+Sous-titre : « A qui s’adressent nos audits ? »
+Texte : « * Entrepreneurs et dirigeants     * PME et grandes organisations     * Structures en phase de croissance, de transformation ou de réorganisation »
+Image « logo_sgs.png » menant vers l’adresse "https://www.sgs.com/fr-fr/notre-entreprise/a-propos-de-sgs"
+
+Pied de page modèle
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Page Formation Professionnelle
+
+Menu de navigation modèle en en-tête
+
+Titre : « Les formations professionnelles »
+Sous-titre : « Nos domaines de formation »
+Texte : « * Management et leadership     * Organisation et performance     * Développement professionnel     * Pilotage     * Outils et méthodes de travail     * Transformation et conduite du changement »
+Sous-titre : « Notre approche pédagogique »
+Texte : « * Pédagogie active et participative     * Apports théoriques ciblés et mises en pratique     * Etudes de cas, exercices concrets et échanges d’expériences     * Adaptation aux niveaux et profils des participants »
+Sous-titre : « Déroulement des formations »
+Texte : « * Analyse des besoins : Identification des attentes, des compétences à développer et des contraintes     * Conception de la formation : Elaboration d’un programme sur mesure, adapté aux objectifs définis     * Animation de la formation : Intervention dynamique favorisant l’engagement et l’apprentissage     * Evaluation et suivi : Evaluation des acquis et accompagnement post-formation si nécessaire »
+Sous-titre : « Ce que vous gagnez »
+Texte : « * Des compétences immédiatement mobilisables     * Des formations concrètes et opérationnelles     * Un accompagnement personnalisé     * Une amélioration mesurable des pratiques professionnelles »
+Sous-titre : « Public concerné »
+Texte : « * Salariés     * Managers et dirigeants     * Entrepreneurs     * Équipes en évolution ou en transformation »
+Sous-titre : « Sous-traitance »
+Sous-titre : « Une expertise pédagogique au service de vos formations »
+Texte : « Nous intervenons en sous-traitance de formation professionnelle auprès d’organismes de formation, d’entreprises et de cabinets de conseil souhaitant renforcer leur offre avec une expertise fiable et opérationnelle. »
+Sous-titre : « Un partenariat de confiance »
+Texte : « Nous travaillons en étroite collaboration avec l’organisme donneur d’ordre afin de garantir la cohérence des contenus, le respect du cadre défini et la satisfaction des apprenants. Notre intervention s’inscrit dans une logique de partenariat durable, fondée sur la qualité, la transparence et le professionnalisme. »
+Sous-titre : « Prestations proposées en sous-traitance »
+Texte : « * Animation de formations en présentiel     * Interventions ponctuelles ou missions récurrentes     * Évaluation des acquis et bilan de formation     * Respect des exigences qualité (Qualiopi, référentiels internes, etc.) »
+Image « logo_sofis.jpg »
+
+Pied de page modèle
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Page A propos
+
+Menu de navigation modèle en en-tête
+
+Section « Ce que je peux vous apporter » :
+	- Sous-section 1 : 
+		o Image « qualite.jpg »
+		o Titre : « LA QUALITE »
+		o Sous-titre : « A quoi sert une démarche qualité ? -> Assurer la qualité des produits et services »
+		o Texte : « La démarche Qualité permet de : * Répondre aux besoins et attentes des clients     * Garantir la conformité des produits ou services     * Réduire les erreurs et dysfonctionnements     * Améliorer la satisfaction et la confiance     Objectif : fournir une qualité constante et maîtrisée »
+	- Sous-section 2 :
+		o Image « sante_securite.jpg »
+		o Titre : « SANTE ET SECURITE AU TRAVAIL »
+		o Sous-titre : « A quoi sert une démarche santé et sécurité au travail ? -> Protéger la santé et la sécurité des personnes »
+		o Texte : « La démarche Santé & Sécurité au travail vise à :     * Prévenir les accidents et maladies professionnelles     * Identifier et réduire les risques     * Améliorer les conditions de travail     * Respecter les obligations réglementaires     Objectif : préserver l’intégrité physique et mentale des collaborateurs »
+	- Sous-section 3 : 
+		o Image « environnement.jpg »
+		o Titre : « LA DEMARCHE ENVIRONNEMENTALE »
+		o Sous-titre : « A quoi sert une démarche environnementale ? -> Réduire l’impact environnemental »
+		o Texte : « La démarche Environnement permet de : * Limiter les pollutions et les nuisances     * Réduire la consommation d’énergie et de ressources     * Gérer les déchets de manière responsable     * Se conformer aux réglementations environnementales     Objectif : réduire l’empreinte environnementale de l’activité »
+	- Sous-section 4 :
+		o Image « responsabillite_societale.jpg »
+		o Titre : « LA RESPONSABILITE SOCIETALE »
+		o Sous-titre : « A quoi sert une démarche RSE ? -> Intégrer la respon-sabilité sociétale (RSE) »
+		o Texte : « La démarche RSE visa à : * Agir de manière éthique et responsable     * Prendre en compte les impacts sociaux et socié-taux     * Favoriser l’inclusion, la diversité et l’égalité     * Contribuer positivement au territoire et à la société     Objectif : concilier performance économique et responsabilité sociale »
+
+Section « QUI SUIS-JE ? » :
+	- Texte : « Je suis France Fath, consultante et formatrice auprès des entreprises. Après un diplôme en management en qualité, sécurité, environnement, j’ai choisi de me spécialiser dans l’accompagnement des équipes et le développement des compétences dans les entreprises. Depuis plus de 10 ans, j’ai travaillé avec des entreprises de secteurs variés – santé, numérique, industrie – pour améliorer leurs pratiques et renforcer les talents de leurs collaborateurs. Mes domaines de prédilection : leadership, management qualité, santé, sécurité, bien-être au travail, gestion environnementale et responsabilité sociétale. Vous souhaitez développer vos équipes ou relever de nouveaux défis ? N’hésitez pas à me contacter pour en discuter. »
+
+Pied de page modèle
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Page Contact
+
+Menu de navigation modèle en en-tête
+
+Titre : « Contactez-moi »
+Texte : « Vous pouvez me contacter via le formulaire ci-contre, ou à mon adresse mail : francefath@gmail.com »
+Titre : « Suivez-moi »
+Logo LinkedIn menant vers le profil LinkedIn : « https://www.linkedin.com/in/france-fath-42687960/ »
+Formulaire :
+	- Champ « Société »
+	- Champ « Nom du contact »
+	- Champ « Adresse e-mail »
+	- Champ « Message »
+	- Bouton « C’est parti » validant le formulaire et envoyant les infos à l’admin
+
+Pied de page modèle
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Page Mentions Légales
+
+Simuler en texte les mentions légales (le temps que j'ai les officielles)
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Page Politique de Confidentialité
+
+Contenu de la charte (gérer titre, sous-titre, texte normaux, en fonction de l'importance des différentes parties de la charte) :
+"Politique de confidentialité
+Qui sommes-nous ?
+L’adresse de notre site est : https://francefath.com.
+
+Commentaires
+Quand vous laissez un commentaire sur notre site, les données inscrites dans le formulaire de commentaire, ainsi que votre adresse IP et l’agent utilisateur de votre navigateur sont collectés pour nous aider à la détection des commentaires indésirables.
+Une chaîne anonymisée créée à partir de votre adresse e-mail (également appelée hash) peut être envoyée au service Gravatar pour vérifier si vous utilisez ce dernier. Les clauses de confidentialité du service Gravatar sont disponibles ici : https://automattic.com/privacy/. Après validation de votre commentaire, votre photo de profil sera visible publiquement à coté de votre commentaire.
+
+Médias
+Si vous téléversez des images sur le site, nous vous conseillons d’éviter de téléverser des images contenant des données EXIF de coordonnées GPS. Les personnes visitant votre site peuvent télécharger et extraire des données de localisation depuis ces images.
+
+Cookies
+Si vous déposez un commentaire sur notre site, il vous sera proposé d’enregistrer votre nom, adresse e-mail et site dans des cookies. C’est uniquement pour votre confort afin de ne pas avoir à saisir ces informations si vous déposez un autre commentaire plus tard. Ces cookies expirent au bout d’un an.
+Si vous vous rendez sur la page de connexion, un cookie temporaire sera créé afin de déterminer si votre navigateur accepte les cookies. Il ne contient pas de données personnelles et sera supprimé automatiquement à la fermeture de votre navigateur.
+Lorsque vous vous connecterez, nous mettrons en place un certain nombre de cookies pour enregistrer vos informations de connexion et vos préférences d’écran. La durée de vie d’un cookie de connexion est de deux jours, celle d’un cookie d’option d’écran est d’un an. Si vous cochez « Se souvenir de moi », votre cookie de connexion sera conservé pendant deux semaines. Si vous vous déconnectez de votre compte, le cookie de connexion sera effacé.
+En modifiant ou en publiant une publication, un cookie supplémentaire sera enregistré dans votre navigateur. Ce cookie ne comprend aucune donnée personnelle. Il indique simplement l’ID de la publication que vous venez de modifier. Il expire au bout d’un jour.
+
+Contenu embarqué depuis d’autres sites
+Les articles de ce site peuvent inclure des contenus intégrés (par exemple des vidéos, images, articles…). Le contenu intégré depuis d’autres sites se comporte de la même manière que si le visiteur se rendait sur cet autre site.
+Ces sites web pourraient collecter des données sur vous, utiliser des cookies, embarquer des outils de suivis tiers, suivre vos interactions avec ces contenus embarqués si vous disposez d’un compte connecté sur leur site web.
+
+Utilisation et transmission de vos données personnelles
+Si vous demandez une réinitialisation de votre mot de passe, votre adresse IP sera incluse dans l’e-mail de réinitialisation.
+
+Durées de stockage de vos données
+Si vous laissez un commentaire, le commentaire et ses métadonnées sont conservés indéfiniment. Cela permet de reconnaître et approuver automatiquement les commentaires suivants au lieu de les laisser dans la file de modération.
+Pour les comptes qui s’inscrivent sur notre site (le cas échéant), nous stockons également les données personnelles indiquées dans leur profil. Tous les comptes peuvent voir, modifier ou supprimer leurs informations personnelles à tout moment (à l’exception de leur identifiant). Les gestionnaires du site peuvent aussi voir et modifier ces informations.
+
+Les droits que vous avez sur vos données
+Si vous avez un compte ou si vous avez laissé des commentaires sur le site, vous pouvez demander à recevoir un fichier contenant toutes les données personnelles que nous possédons à votre sujet, incluant celles que vous nous avez fournies. Vous pouvez également demander la suppression des données personnelles vous concernant. Cela ne prend pas en compte les données stockées à des fins administratives, légales ou pour des raisons de sécurité.
+
+Où vos données sont envoyées
+Les commentaires des visiteurs peuvent être vérifiés à l’aide d’un service automatisé de détection des commentaires indésirables."
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Condition supplémentaire concernant le design et la structure
+- Mettre en place une charte graphique reprenant les couleurs et typographie du logo de l’entreprise (pour rappel "logo_like_quality.jpg")
