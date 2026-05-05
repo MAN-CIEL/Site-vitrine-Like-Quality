@@ -991,6 +991,40 @@ ul {
     animation: fadeInUp 1s ease-out 0.2s both;
 }
 
+/* Breadcrumbs */
+.breadcrumbs {
+    background: var(--bg-light);
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.breadcrumbs-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text-light);
+}
+
+.breadcrumbs a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: var(--transition-fast);
+}
+
+.breadcrumbs a:hover {
+    color: var(--primary-color);
+}
+
+.breadcrumbs span {
+    color: var(--text-light);
+}
+
+.breadcrumbs .separator {
+    color: var(--text-light);
+    opacity: 0.5;
+}
+
 /* ============================================
    CONTENT SECTIONS
    ============================================ */

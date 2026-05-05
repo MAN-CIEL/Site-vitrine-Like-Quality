@@ -3,19 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Like Quality - Formations Professionnelles en QSE. Développez les compétences et renforcez la performance de vos équipes.">
-    <meta name="keywords" content="Formation, Professionnelle, QSE, Qualité, Sécurité, Environnement, Compétences, Management">
+    <link rel="canonical" href="https://francefath.com">
+    <meta name="description" content="Like Quality - L'expertise en systèmes de management de la Qualité, de la Sécurité et de l'Environnement. Conseil, audit et formation professionnelle.">
+    <meta name="keywords" content="Qualité, Sécurité, Environnement, QSE, Conseil, Audit, Formation, Management, France Fath">
     <meta name="author" content="France Fath - Like Quality">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Formation Professionnelle - Like Quality">
-    <meta property="og:description" content="Développez les compétences et renforcez la performance avec nos formations professionnelles">
+    <meta property="og:title" content="Like Quality - Expertise QSE">
+    <meta property="og:description" content="L'expertise en systèmes de management de la Qualité, de la Sécurité et de l'Environnement">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://francefath.com/formation-professionnelle.html">
-    <title>Formation Professionnelle - Like Quality</title>
+    <meta property="og:url" content="https://francefath.com">
+    <meta property="og:image" content="https://francefath.com/images/logo_like_quality.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Like Quality - Expertise QSE">
+    <meta name="twitter:description" content="L'expertise en systèmes de management de la Qualité, de la Sécurité et de l'Environnement">
+    <meta name="twitter:image" content="https://francefath.com/images/logo_like_quality.jpg">
+    <title>Like Quality - Expertise en Qualité, Sécurité, Environnement</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Like Quality",
+        "description": "L'expertise en systèmes de management de la Qualité, de la Sécurité et de l'Environnement",
+        "url": "https://francefath.com",
+        "telephone": "+33XXXXXXXXXX",
+        "email": "francefath@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "FR"
+        },
+        "founder": {
+            "@type": "Person",
+            "name": "France Fath"
+        },
+        "sameAs": [
+            "https://www.linkedin.com/in/france-fath-42687960/"
+        ]
+    }
+    </script>
 </head>
 <body>
     <!-- Header -->
@@ -30,10 +58,10 @@
                 <span></span>
             </button>
             <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="index.html" class="nav-link active">Accueil</a></li>
                 <li><a href="conseil-accompagnement.html" class="nav-link">Conseil et Accompagnement</a></li>
                 <li><a href="audit.html" class="nav-link">Audit</a></li>
-                <li><a href="formation-professionnelle.html" class="nav-link active">Formation Professionnelle</a></li>
+                <li><a href="formation-professionnelle.html" class="nav-link">Formation Professionnelle</a></li>
                 <li><a href="a-propos.html" class="nav-link">A propos</a></li>
                 <li><a href="contact.html" class="nav-link">Contactez-moi</a></li>
                 <li>
@@ -60,98 +88,132 @@
     </header>
 
     <main>
-        <!-- Page Header -->
-        <section class="page-header">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content container">
+                <img src="images/logo_like_quality.jpg" alt="Like Quality Logo" class="hero-logo fade-in">
+                <h1 class="hero-title fade-in">Like Quality</h1>
+                <p class="hero-slogan fade-in">L'expertise en systèmes de management de la Qualité, de la Sécurité et de l'Environnement</p>
+                <a href="#services" class="btn btn-primary fade-in">Découvrir nos services</a>
+            </div>
+            <div class="hero-background"></div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
             <div class="container">
-                <h1>Les formations professionnelles</h1>
-                <p>Développez les compétences. Renforcez la performance.</p>
+                <h2 class="section-title fade-in">Découvrez nos services</h2>
+                
+                <!-- Service 1: Conseil et Accompagnement -->
+                <article class="service-card fade-in">
+                    <div class="service-image">
+                        <img src="images/conseil_accompagnement.jpg" alt="Conseil et Accompagnement">
+                    </div>
+                    <div class="service-content">
+                        <h3>Conseil et Accompagnement</h3>
+                        <h4 class="service-subtitle">Des solutions sur mesure pour atteindre vos objectifs</h4>
+                        <p class="service-text">Nos prestations de conseil et d'accompagnement sont conçues pour vous aider à structurer vos projets, prendre les bonnes décisions et améliorer durablement vos performances. Nous intervenons à vos côtés avec une approche personnalisée, pragmatique et orientée résultats.</p>
+                        <h4 class="service-subtitle">Une approche centrée sur vos besoins</h4>
+                        <p class="service-text">Chaque accompagnement débute par une phase de diagnostic et d'analyse afin de comprendre votre contexte, vos enjeux et vos objectifs. Nous construisons ensuite des solutions adaptées à la réalité de votre organisation, qu'il s'agisse de stratégie ou d'optimisation de vos pratiques.</p>
+                        <a href="conseil-accompagnement.html" class="btn btn-secondary">En savoir plus</a>
+                    </div>
+                </article>
+
+                <!-- Service 2: Audit -->
+                <article class="service-card fade-in">
+                    <div class="service-image">
+                        <img src="images/audit.jpg" alt="Audit">
+                    </div>
+                    <div class="service-content">
+                        <h3>Audit</h3>
+                        <h4 class="service-subtitle">Analysez votre situation et identifiez les leviers de progrès.</h4>
+                        <p class="service-text">Nos prestations d'audit vous permettent d'obtenir une vision objective et détaillée de votre situation actuelle. Grâce à une analyse rigoureuse et structurée, nous identifions les points forts, les dysfonctionnements et les opportunités d'améliorations afin de vous aider à prendre des décisions claires.</p>
+                        <h4 class="service-subtitle">Quels sont les différents types d'audit ?</h4>
+                        <ul class="service-list">
+                            <li>Audit interne en entreprise</li>
+                            <li>Audit externe seconde partie</li>
+                            <li>Audit externe tierce partie</li>
+                        </ul>
+                        <h4 class="service-subtitle">Pourquoi réaliser un audit ?</h4>
+                        <ul class="service-list">
+                            <li>Évaluer l'efficacité de vos pratiques et processus</li>
+                            <li>Identifier les risques et les axes d'amélioration</li>
+                            <li>Améliorer la performance globale</li>
+                            <li>Disposer d'un diagnostic clair avant toute prise de décision ou transformation</li>
+                        </ul>
+                        <a href="audit.html" class="btn btn-secondary">En savoir plus</a>
+                    </div>
+                </article>
+
+                <!-- Service 3: Formation Professionnelle -->
+                <article class="service-card fade-in">
+                    <div class="service-image">
+                        <img src="images/formation_professionnelle.jpg" alt="Formation Professionnelle">
+                    </div>
+                    <div class="service-content">
+                        <h3>Formation Professionnelle</h3>
+                        <h4 class="service-subtitle">Développez les compétences. Renforcez la performance.</h4>
+                        <p class="service-text">Nos prestations de formation professionnelle accompagnent les individus et les organisations dans le développement de compétences durables et opérationnelles. Conçues pour répondre aux besoins concrets du terrain, nos formations allient expertise, pédagogie active et accompagnement personnalisé.</p>
+                        <h4 class="service-subtitle">Des formations adaptées à vos enjeux</h4>
+                        <p class="service-text">Chaque formation est construite à partir d'une analyse précise de vos besoins, de votre contexte et de vos objectifs. Les contenus, formats et modalités pédagogiques sont personnalisés afin de garantir une montée en compétences efficace et directement applicable.</p>
+                        <a href="formation-professionnelle.html" class="btn btn-secondary">En savoir plus</a>
+                    </div>
+                </article>
             </div>
         </section>
 
-        <!-- Content Section 1 -->
-        <section class="content-section">
+        <!-- Values Section -->
+        <section class="values">
             <div class="container">
-                <div class="content-block fade-in">
-                    <h3>Nos domaines de formation</h3>
-                    <ul>
-                        <li>Management et leadership</li>
-                        <li>Organisation et performance</li>
-                        <li>Développement professionnel</li>
-                        <li>Pilotage</li>
-                        <li>Outils et méthodes de travail</li>
-                        <li>Transformation et conduite du changement</li>
-                    </ul>
+                <div class="values-intro fade-in">
+                    <img src="images/valeurs.jpg" alt="Nos valeurs" class="values-image">
+                    <h2 class="section-title">Mes valeurs</h2>
                 </div>
-
-                <div class="content-block fade-in">
-                    <h3>Notre approche pédagogique</h3>
-                    <ul>
-                        <li>Pédagogie active et participative</li>
-                        <li>Apports théoriques ciblés et mises en pratique</li>
-                        <li>Études de cas, exercices concrets et échanges d'expériences</li>
-                        <li>Adaptation aux niveaux et profils des participants</li>
-                    </ul>
-                </div>
-
-                <div class="content-block fade-in">
-                    <h3>Déroulement des formations</h3>
-                    <ul>
-                        <li><strong>Analyse des besoins :</strong> Identification des attentes, des compétences à développer et des contraintes</li>
-                        <li><strong>Conception de la formation :</strong> Élaboration d'un programme sur mesure, adapté aux objectifs définis</li>
-                        <li><strong>Animation de la formation :</strong> Intervention dynamique favorisant l'engagement et l'apprentissage</li>
-                        <li><strong>Évaluation et suivi :</strong> Évaluation des acquis et accompagnement post-formation si nécessaire</li>
-                    </ul>
-                </div>
-
-                <div class="content-block fade-in">
-                    <h3>Ce que vous gagnez</h3>
-                    <ul>
-                        <li>Des compétences immédiatement mobilisables</li>
-                        <li>Des formations concrètes et opérationnelles</li>
-                        <li>Un accompagnement personnalisé</li>
-                        <li>Une amélioration mesurable des pratiques professionnelles</li>
-                    </ul>
-                </div>
-
-                <div class="content-block fade-in">
-                    <h3>Public concerné</h3>
-                    <ul>
-                        <li>Salariés</li>
-                        <li>Managers et dirigeants</li>
-                        <li>Entrepreneurs</li>
-                        <li>Équipes en évolution ou en transformation</li>
-                    </ul>
-                </div>
-
-                <div class="content-block fade-in">
-                    <h3>Sous-traitance</h3>
-                    <h4>Une expertise pédagogique au service de vos formations</h4>
-                    <p>Nous intervenons en sous-traitance de formation professionnelle auprès d'organismes de formation, d'entreprises et de cabinets de conseil souhaitant renforcer leur offre avec une expertise fiable et opérationnelle.</p>
-                </div>
-
-                <div class="content-block fade-in">
-                    <h3>Un partenariat de confiance</h3>
-                    <p>Nous travaillons en étroite collaboration avec l'organisme donneur d'ordre afin de garantir la cohérence des contenus, le respect du cadre défini et la satisfaction des apprenants. Notre intervention s'inscrit dans une logique de partenariat durable, fondée sur la qualité, la transparence et le professionnalisme.</p>
-                </div>
-
-                <div class="content-block fade-in">
-                    <h3>Prestations proposées en sous-traitance</h3>
-                    <ul>
-                        <li>Animation de formations en présentiel</li>
-                        <li>Interventions ponctuelles ou missions récurrentes</li>
-                        <li>Évaluation des acquis et bilan de formation</li>
-                        <li>Respect des exigences qualité (Qualiopi, référentiels internes, etc.)</li>
-                    </ul>
+                <div class="values-grid">
+                    <div class="value-card fade-in">
+                        <h3>L'ETHIQUE et LA CONFIANCE</h3>
+                        <p>Trouver les solutions les plus adaptées en respectant la déontologie et la vertu, c'est la garantie d'une relation saine avec le client.</p>
+                    </div>
+                    <div class="value-card fade-in">
+                        <h3>L'OUVERTURE D'ESPRIT</h3>
+                        <p>Être d'accord avec les propositions d'autrui est une qualité fondamentale. Et en être capable surtout ! Être plus efficace en apprenant les uns des autres.</p>
+                    </div>
+                    <div class="value-card fade-in">
+                        <h3>LA CREATIVITE</h3>
+                        <p>Sortir des sentiers battus ! Cela va de pair avec l'ouverture d'esprit et c'est ce qui fait la force d'une collaboration.</p>
+                    </div>
+                    <div class="value-card fade-in">
+                        <h3>LA FLEXIBILITE</h3>
+                        <p>S'adapter aux fluctuations et changements internes chez le client ! Voilà ici une valeur essentielle afin de collaborer en toute sérénité.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Partners Section -->
-        <section class="partners">
+        <!-- QSE Section -->
+        <section class="qse">
             <div class="container">
-                <h2>Nos partenaires</h2>
-                <div class="partners-grid">
-                    <img src="images/logo_sofis.jpg" alt="Sofis" class="partner-logo">
+                <h2 class="section-title fade-in">Ce que nous pouvons vous apportez</h2>
+                <div class="qse-grid">
+                    <div class="qse-card fade-in">
+                        <h3>La Qualité</h3>
+                        <p>Une démarche qualité permet de répondre aux besoins et attentes des clients, garantir la conformité des produits ou services, réduire les erreurs et dysfonctionnements, et améliorer la satisfaction et la confiance. L'objectif est de fournir une qualité constante et maîtrisée.</p>
+                    </div>
+                    <div class="qse-card fade-in">
+                        <h3>Santé et Sécurité au Travail</h3>
+                        <p>La démarche Santé & Sécurité au travail vise à prévenir les accidents et maladies professionnelles, identifier et réduire les risques, améliorer les conditions de travail, et respecter les obligations réglementaires. L'objectif est de préserver l'intégrité physique et mentale des collaborateurs.</p>
+                    </div>
+                    <div class="qse-card fade-in">
+                        <h3>La Démarche Environnementale</h3>
+                        <p>La démarche Environnement permet de limiter les pollutions et les nuisances, réduire la consommation d'énergie et de ressources, gérer les déchets de manière responsable, et se conformer aux réglementations environnementales. L'objectif est de réduire l'empreinte environnementale de l'activité.</p>
+                    </div>
+                    <div class="qse-card fade-in">
+                        <h3>Le Développement Durable</h3>
+                        <p>Le développement durable vise à agir de manière éthique et responsable, prendre en compte les impacts sociaux et sociétaux, favoriser l'inclusion, la diversité et l'égalité, et contribuer positivement au territoire et à la société. L'objectif est de concilier performance économique et responsabilité sociale.</p>
+                    </div>
+                </div>
+                <div class="qse-cta fade-in">
+                    <a href="a-propos.html" class="btn btn-primary">En savoir plus</a>
                 </div>
             </div>
         </section>
@@ -159,8 +221,8 @@
         <!-- CTA Section -->
         <section class="cta-section">
             <div class="container">
-                <h2 class="fade-in">Besoin de former vos équipes ?</h2>
-                <p class="fade-in">Contactez-nous pour concevoir ensemble des formations adaptées à vos besoins.</p>
+                <h2 class="fade-in">Prêt à améliorer votre organisation ?</h2>
+                <p class="fade-in">Contactez-nous pour discuter de vos besoins et découvrir comment nous pouvons vous accompagner.</p>
                 <a href="contact.html" class="btn btn-primary fade-in">Contactez-moi</a>
             </div>
         </section>
