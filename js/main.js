@@ -194,36 +194,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Counter animation for statistics (if any)
-    const counters = document.querySelectorAll('.counter');
-    counters.forEach(counter => {
-        const target = parseInt(counter.getAttribute('data-target'));
-        const duration = 2000;
-        const step = target / (duration / 16);
-        let current = 0;
-
-        const updateCounter = () => {
-            current += step;
-            if (current < target) {
-                counter.textContent = Math.floor(current);
-                requestAnimationFrame(updateCounter);
-            } else {
-                counter.textContent = target;
-            }
-        };
-
-        const counterObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    updateCounter();
-                    counterObserver.unobserve(entry.target);
-                }
-            });
-        });
-
-        counterObserver.observe(counter);
-    });
-
     // Add back to top button functionality
     const backToTopBtn = document.createElement('button');
     backToTopBtn.innerHTML = `
@@ -233,36 +203,14 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
     backToTopBtn.className = 'back-to-top';
     backToTopBtn.setAttribute('aria-label', 'Retour en haut');
-    backToTopBtn.style.cssText = `
-        position: fixed;
-        bottom: 30px;
-        right: 30px;
-        width: 50px;
-        height: 50px;
-        background: var(--accent-color);
-        color: white;
-        border: none;
-        border-radius: 50%;
-        cursor: pointer;
-        opacity: 0;
-        visibility: hidden;
-        transition: all 0.3s ease;
-        z-index: 999;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    `;
-    
+
     document.body.appendChild(backToTopBtn);
 
     window.addEventListener('scroll', function() {
         if (window.pageYOffset > 500) {
-            backToTopBtn.style.opacity = '1';
-            backToTopBtn.style.visibility = 'visible';
+            backToTopBtn.classList.add('visible');
         } else {
-            backToTopBtn.style.opacity = '0';
-            backToTopBtn.style.visibility = 'hidden';
+            backToTopBtn.classList.remove('visible');
         }
     });
 
@@ -272,17 +220,6 @@ document.addEventListener('DOMContentLoaded', function() {
             behavior: 'smooth'
         });
     });
-
-    // Add CSS for back to top button hover
-    const style = document.createElement('style');
-    style.textContent = `
-        .back-to-top:hover {
-            background: #e67e22 !important;
-            transform: translateY(-3px) !important;
-            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3) !important;
-        }
-    `;
-    document.head.appendChild(style);
 
     console.log('Like Quality website loaded successfully!');
 });
@@ -305,7 +242,7 @@ function preloadImages() {
 // Call preload
 preloadImages();
 
-// Add page transition effect
+// Page transition effect
 window.addEventListener('beforeunload', function() {
     document.body.style.opacity = '0';
 });
@@ -313,12 +250,3 @@ window.addEventListener('beforeunload', function() {
 window.addEventListener('load', function() {
     document.body.style.opacity = '1';
 });
-
-// Add CSS for page transition
-const transitionStyle = document.createElement('style');
-transitionStyle.textContent = `
-    body {
-        transition: opacity 0.3s ease;
-    }
-`;
-document.head.appendChild(transitionStyle);

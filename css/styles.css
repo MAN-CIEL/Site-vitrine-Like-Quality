@@ -48,6 +48,7 @@ body {
     color: var(--text-color);
     background-color: var(--bg-white);
     overflow-x: hidden;
+    transition: opacity 0.3s ease;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -811,6 +812,41 @@ ul {
     position: relative;
     z-index: 1;
     line-height: 1.8;
+}
+
+/* ============================================
+   BACK TO TOP
+   ============================================ */
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.back-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.back-to-top:hover {
+    background: #e67e22;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
 }
 
 /* ============================================
@@ -1878,18 +1914,3 @@ textarea:focus {
     outline-offset: 2px;
 }
 
-/* Skip to content link */
-.skip-to-content {
-    position: absolute;
-    top: -100%;
-    left: 0;
-    background: var(--accent-color);
-    color: var(--text-white);
-    padding: 1rem;
-    z-index: 9999;
-    transition: top 0.3s;
-}
-
-.skip-to-content:focus {
-    top: 0;
-}
