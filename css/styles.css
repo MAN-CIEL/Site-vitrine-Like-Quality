@@ -1526,11 +1526,13 @@ ul {
     .nav-menu li {
         display: flex;
         justify-content: center;
+        align-items: center;
         width: 100%;
+        text-align: center;
     }
 
     .search-btn {
-        margin-left: 0;
+        margin: 0 auto !important;
     }
 
     .nav-menu.active {
@@ -1587,24 +1589,41 @@ ul {
         text-align: center;
     }
 
+    .footer-links,
+    .footer-legal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
     .footer-links ul,
     .footer-legal ul {
         align-items: center;
+        width: 100%;
+    }
+
+    .footer-links li,
+    .footer-legal li {
+        text-align: center;
+        width: 100%;
     }
 
     .footer-links a,
     .footer-legal a {
-        padding-left: 0;
+        display: inline-block;
+        padding-left: 0 !important;
+        text-align: center;
     }
 
     .footer-links a::before,
     .footer-legal a::before {
-        display: none;
+        display: none !important;
     }
 
     .footer-links a:hover,
     .footer-legal a:hover {
-        padding-left: 0;
+        padding-left: 0 !important;
     }
 
     .values-grid,
