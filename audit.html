@@ -13,10 +13,12 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://francefath.com/audit.html">
     <meta property="og:image" content="https://francefath.com/images/logo_like_quality.jpg">
+    <meta property="og:locale" content="fr_FR">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Audit - Like Quality">
     <meta name="twitter:description" content="Analysez votre situation et identifiez les leviers de progrès avec nos services d'audit">
     <meta name="twitter:image" content="https://francefath.com/images/logo_like_quality.jpg">
+    <meta name="twitter:image:alt" content="Logo Like Quality - Expertise QSE">
     <title>Audit - Like Quality</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,18 +27,109 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "Audit",
-        "description": "Analysez votre situation et identifiez les leviers de progrès avec nos services d'audit",
-        "provider": {
-            "@type": "Person",
-            "name": "France Fath"
-        },
-        "url": "https://francefath.com/audit.html"
+        "@graph": [
+            {
+                "@type": "Organization",
+                "name": "Like Quality",
+                "url": "https://francefath.com",
+                "logo": "https://francefath.com/images/logo_like_quality.jpg",
+                "description": "L'expertise en systèmes de management de la Qualité, de la Sécurité et de l'Environnement. Conseil, audit et formation professionnelle.",
+                "founder": {
+                    "@type": "Person",
+                    "name": "France Fath"
+                }
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://francefath.com/audit.html",
+                "url": "https://francefath.com/audit.html",
+                "name": "Audit QSE - Like Quality",
+                "description": "Analysez votre situation et identifiez les leviers de progrès avec nos services d'audit QSE en France.",
+                "isPartOf": {
+                    "@id": "https://francefath.com/"
+                },
+                "primaryImageOfPage": {
+                    "@id": "https://francefath.com/images/logo_like_quality.jpg"
+                },
+                "breadcrumb": {
+                    "@id": "https://francefath.com/audit.html#breadcrumb"
+                },
+                "inLanguage": "fr-FR"
+            },
+            {
+                "@type": "Service",
+                "name": "Audit QSE",
+                "description": "Analysez votre situation et identifiez les leviers de progrès avec nos services d'audit",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Like Quality",
+                    "url": "https://francefath.com"
+                },
+                "areaServed": "France",
+                "serviceType": "Audit en systèmes de management QSE",
+                "url": "https://francefath.com/audit.html"
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": "https://francefath.com/audit.html#breadcrumb",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Accueil",
+                        "item": "https://francefath.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Audit",
+                        "item": "https://francefath.com/audit.html"
+                    }
+                ]
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Quels types d'audit proposez-vous ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Nous proposons l'audit organisationnel et opérationnel, l'audit des processus, l'audit de performance et l'audit de conformité."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Quelle est votre méthodologie d'audit ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Notre méthodologie comprend le cadrage et la définition des objectifs, l'analyse de l'existant, l'évaluation et le diagnostic, ainsi que la restitution et les recommandations."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "À qui s'adressent vos audits ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Nos audits s'adressent aux entrepreneurs et dirigeants, aux PME et grandes organisations, ainsi qu'aux structures en phase de croissance, de transformation ou de réorganisation."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Pourquoi réaliser un audit QSE ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Un audit permet d'évaluer l'efficacité de vos pratiques et processus, d'identifier les risques et opportunités, d'améliorer la performance globale et de disposer d'un diagnostic clair avant toute prise de décision."
+                        }
+                    }
+                ]
+            }
+        ]
     }
     </script>
 </head>
 <body>
+    <a href="#main-content" class="skip-to-content">Aller au contenu principal</a>
     <!-- Header -->
     <header class="header">
         <nav class="nav container">
@@ -51,7 +144,7 @@
             <ul class="nav-menu">
                 <li><a href="index.html" class="nav-link">Accueil</a></li>
                 <li><a href="conseil-accompagnement.html" class="nav-link">Conseil et Accompagnement</a></li>
-                <li><a href="audit.html" class="nav-link active">Audit</a></li>
+                <li><a href="audit.html" class="nav-link active" aria-current="page">Audit</a></li>
                 <li><a href="formation-professionnelle.html" class="nav-link">Formation Professionnelle</a></li>
                 <li><a href="a-propos.html" class="nav-link">A propos</a></li>
                 <li><a href="contact.html" class="nav-link">Contactez-moi</a></li>
@@ -78,7 +171,7 @@
         </div>
     </header>
 
-    <main>
+    <main id="main-content">
         <!-- Breadcrumbs -->
         <nav class="breadcrumbs">
             <div class="container breadcrumbs-container">

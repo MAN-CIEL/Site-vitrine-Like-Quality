@@ -13,10 +13,12 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://francefath.com/conseil-accompagnement.html">
     <meta property="og:image" content="https://francefath.com/images/logo_like_quality.jpg">
+    <meta property="og:locale" content="fr_FR">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Conseil et Accompagnement - Like Quality">
     <meta name="twitter:description" content="Des solutions sur mesure pour atteindre vos objectifs en matière de qualité, sécurité et environnement">
     <meta name="twitter:image" content="https://francefath.com/images/logo_like_quality.jpg">
+    <meta name="twitter:image:alt" content="Logo Like Quality - Expertise QSE">
     <title>Conseil et Accompagnement - Like Quality</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,18 +27,109 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "Conseil et Accompagnement",
-        "description": "Des solutions sur mesure pour atteindre vos objectifs en matière de qualité, sécurité et environnement",
-        "provider": {
-            "@type": "Person",
-            "name": "France Fath"
-        },
-        "url": "https://francefath.com/conseil-accompagnement.html"
+        "@graph": [
+            {
+                "@type": "Organization",
+                "name": "Like Quality",
+                "url": "https://francefath.com",
+                "logo": "https://francefath.com/images/logo_like_quality.jpg",
+                "description": "L'expertise en systèmes de management de la Qualité, de la Sécurité et de l'Environnement. Conseil, audit et formation professionnelle.",
+                "founder": {
+                    "@type": "Person",
+                    "name": "France Fath"
+                }
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://francefath.com/conseil-accompagnement.html",
+                "url": "https://francefath.com/conseil-accompagnement.html",
+                "name": "Conseil et Accompagnement QSE - Like Quality",
+                "description": "Des solutions sur mesure pour atteindre vos objectifs en matière de qualité, sécurité et environnement.",
+                "isPartOf": {
+                    "@id": "https://francefath.com/"
+                },
+                "primaryImageOfPage": {
+                    "@id": "https://francefath.com/images/logo_like_quality.jpg"
+                },
+                "breadcrumb": {
+                    "@id": "https://francefath.com/conseil-accompagnement.html#breadcrumb"
+                },
+                "inLanguage": "fr-FR"
+            },
+            {
+                "@type": "Service",
+                "name": "Conseil et Accompagnement QSE",
+                "description": "Des solutions sur mesure pour atteindre vos objectifs en matière de qualité, sécurité et environnement",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Like Quality",
+                    "url": "https://francefath.com"
+                },
+                "areaServed": "France",
+                "serviceType": "Conseil et accompagnement en systèmes de management QSE",
+                "url": "https://francefath.com/conseil-accompagnement.html"
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": "https://francefath.com/conseil-accompagnement.html#breadcrumb",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Accueil",
+                        "item": "https://francefath.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Conseil et Accompagnement",
+                        "item": "https://francefath.com/conseil-accompagnement.html"
+                    }
+                ]
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Dans quels domaines intervenez-vous en conseil QSE ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Nous intervenons dans l'analyse et le diagnostic de votre situation, la définition de stratégies claires et réalistes, l'aide à la prise de décision, l'optimisation des processus et des performances, l'accompagnement au changement et le suivi des actions mises en place."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Quelle est votre méthodologie de conseil ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Notre méthodologie comprend un diagnostic approfondi de l'existant et des enjeux clés, l'élaboration de solutions concrètes et priorisées, l'accompagnement opérationnel avec un suivi régulier, ainsi que l'évaluation des résultats et l'ajustement des actions si nécessaire."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "À qui s'adresse l'accompagnement ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Notre accompagnement s'adresse aux entrepreneurs et dirigeants, aux PME et grandes organisations, aux porteurs de projets et aux équipes en phase de transformation ou de croissance."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Quels bénéfices apporte le conseil QSE ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Une vision claire et structurée de votre organisation, des solutions adaptées à votre contexte, un accompagnement humain et de proximité, ainsi que des résultats mesurables et durables."
+                        }
+                    }
+                ]
+            }
+        ]
     }
     </script>
 </head>
 <body>
+    <a href="#main-content" class="skip-to-content">Aller au contenu principal</a>
     <!-- Header -->
     <header class="header">
         <nav class="nav container">
@@ -50,7 +143,7 @@
             </button>
             <ul class="nav-menu">
                 <li><a href="index.html" class="nav-link">Accueil</a></li>
-                <li><a href="conseil-accompagnement.html" class="nav-link active">Conseil et Accompagnement</a></li>
+                <li><a href="conseil-accompagnement.html" class="nav-link active" aria-current="page">Conseil et Accompagnement</a></li>
                 <li><a href="audit.html" class="nav-link">Audit</a></li>
                 <li><a href="formation-professionnelle.html" class="nav-link">Formation Professionnelle</a></li>
                 <li><a href="a-propos.html" class="nav-link">A propos</a></li>
@@ -78,7 +171,7 @@
         </div>
     </header>
 
-    <main>
+    <main id="main-content">
         <!-- Breadcrumbs -->
         <nav class="breadcrumbs">
             <div class="container breadcrumbs-container">

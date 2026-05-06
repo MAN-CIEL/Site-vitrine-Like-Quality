@@ -1905,6 +1905,24 @@ ul {
     border: 0;
 }
 
+/* Skip to content link */
+.skip-to-content {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    background: var(--accent-color);
+    color: var(--text-white);
+    padding: 1rem;
+    z-index: 9999;
+    transition: top 0.3s;
+    font-weight: 600;
+    border-radius: 0 0 8px 0;
+}
+
+.skip-to-content:focus {
+    top: 0;
+}
+
 /* Focus styles for accessibility */
 a:focus,
 button:focus,
