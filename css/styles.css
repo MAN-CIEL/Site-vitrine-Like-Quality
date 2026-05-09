@@ -240,7 +240,7 @@ main {
 }
 
 .services {
-    background: transparent;
+    background: var(--bg-light);
 }
 
 .values {
@@ -248,7 +248,7 @@ main {
 }
 
 .qse {
-    background: transparent;
+    background: var(--bg-light);
 }
 
 .cta-section {
@@ -689,9 +689,7 @@ ul {
 }
 
 .service-card {
-    background: rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background: var(--bg-white);
     border-radius: 20px;
     overflow: hidden;
     box-shadow: var(--shadow-md);
@@ -853,9 +851,7 @@ ul {
 }
 
 .value-card {
-    background: rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background: var(--bg-light);
     padding: 3rem 2rem;
     border-radius: 20px;
     text-align: center;
@@ -863,6 +859,7 @@ ul {
     border: 2px solid transparent;
     position: relative;
     overflow: hidden;
+    box-shadow: var(--shadow-md);
 }
 
 .value-card::before {
@@ -918,9 +915,7 @@ ul {
 }
 
 .qse-card {
-    background: rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background: var(--bg-white);
     padding: 3rem 2rem;
     border-radius: 20px;
     box-shadow: var(--shadow-md);
