@@ -40,16 +40,17 @@
     width: 100%;
     height: 100%;
     pointer-events: none;
-    z-index: -1;
+    z-index: 1;
     overflow: hidden;
 }
 
 .bg-particle {
     position: absolute;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(74, 144, 226, 0.08) 0%, transparent 70%);
+    background: rgba(74, 144, 226, 0.4);
     animation: float-particle 25s ease-in-out infinite;
-    opacity: 0.6;
+    opacity: 1;
+    box-shadow: 0 0 80px rgba(74, 144, 226, 0.3);
 }
 
 .bg-particle:nth-child(1) {
@@ -68,7 +69,8 @@
     right: -5%;
     animation-delay: -5s;
     animation-duration: 35s;
-    background: radial-gradient(circle, rgba(30, 58, 95, 0.06) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(30, 58, 95, 0.22) 0%, rgba(30, 58, 95, 0.06) 35%, transparent 70%);
+    box-shadow: 0 0 50px rgba(30, 58, 95, 0.12);
 }
 
 .bg-particle:nth-child(3) {
@@ -78,7 +80,8 @@
     right: 20%;
     animation-delay: -10s;
     animation-duration: 28s;
-    background: radial-gradient(circle, rgba(243, 156, 18, 0.04) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(243, 156, 18, 0.2) 0%, rgba(243, 156, 18, 0.05) 35%, transparent 70%);
+    box-shadow: 0 0 40px rgba(243, 156, 18, 0.1);
 }
 
 .bg-particle:nth-child(4) {
@@ -88,7 +91,7 @@
     left: 10%;
     animation-delay: -15s;
     animation-duration: 32s;
-    background: radial-gradient(circle, rgba(45, 90, 138, 0.05) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(45, 90, 138, 0.15) 0%, rgba(45, 90, 138, 0.04) 40%, transparent 70%);
 }
 
 .bg-particle:nth-child(5) {
@@ -107,7 +110,7 @@
     right: 30%;
     animation-delay: -20s;
     animation-duration: 40s;
-    background: radial-gradient(circle, rgba(74, 144, 226, 0.05) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(74, 144, 226, 0.12) 0%, rgba(74, 144, 226, 0.03) 40%, transparent 70%);
 }
 
 .bg-particle:nth-child(7) {
@@ -117,7 +120,7 @@
     right: 10%;
     animation-delay: -12s;
     animation-duration: 22s;
-    background: radial-gradient(circle, rgba(30, 58, 95, 0.04) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(30, 58, 95, 0.14) 0%, rgba(30, 58, 95, 0.04) 40%, transparent 70%);
 }
 
 .bg-particle:nth-child(8) {
@@ -127,25 +130,25 @@
     left: -5%;
     animation-delay: -25s;
     animation-duration: 38s;
-    background: radial-gradient(circle, rgba(243, 156, 18, 0.03) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(243, 156, 18, 0.1) 0%, rgba(243, 156, 18, 0.03) 40%, transparent 70%);
 }
 
 @keyframes float-particle {
     0%, 100% {
         transform: translate(0, 0) scale(1);
-        opacity: 0.4;
+        opacity: 0.7;
     }
     25% {
         transform: translate(30px, -30px) scale(1.05);
-        opacity: 0.6;
+        opacity: 1;
     }
     50% {
         transform: translate(-20px, 20px) scale(0.95);
-        opacity: 0.5;
+        opacity: 0.8;
     }
     75% {
         transform: translate(20px, 10px) scale(1.02);
-        opacity: 0.55;
+        opacity: 0.9;
     }
 }
 
@@ -153,7 +156,7 @@
 @media (prefers-reduced-motion: reduce) {
     .bg-particle {
         animation: none;
-        opacity: 0.3;
+        opacity: 0.5;
     }
 }
 
@@ -173,9 +176,89 @@ body {
     font-family: 'Open Sans', Arial, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
-    background-color: var(--bg-white);
+    background-color: transparent;
     overflow-x: hidden;
     transition: opacity 0.3s ease;
+    isolation: isolate;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    background: radial-gradient(circle at 20% 30%, rgba(74, 144, 226, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 80% 70%, rgba(45, 90, 138, 0.12) 0%, transparent 50%),
+                radial-gradient(circle at 50% 50%, rgba(243, 156, 18, 0.08) 0%, transparent 50%);
+    animation: gradient-shift 15s ease-in-out infinite;
+}
+
+.bg-animation-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    background: radial-gradient(circle at 20% 30%, rgba(74, 144, 226, 0.2) 0%, transparent 50%),
+                radial-gradient(circle at 80% 70%, rgba(45, 90, 138, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 50% 50%, rgba(243, 156, 18, 0.1) 0%, transparent 50%);
+    animation: gradient-shift 15s ease-in-out infinite;
+}
+
+@keyframes gradient-shift {
+    0%, 100% {
+        opacity: 0.8;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.02);
+    }
+}
+
+/* Fond blanc sur le contenu principal */
+.header {
+    position: relative;
+    z-index: 10;
+    background: var(--gradient-glass);
+}
+
+main {
+    position: relative;
+    z-index: 10;
+    background: transparent;
+}
+
+.hero {
+    background: var(--gradient-primary);
+}
+
+.services {
+    background: transparent;
+}
+
+.values {
+    background: transparent;
+}
+
+.qse {
+    background: transparent;
+}
+
+.cta-section {
+    background: var(--gradient-primary);
+}
+
+.footer {
+    position: relative;
+    z-index: 10;
+    background: var(--primary-dark);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -606,7 +689,9 @@ ul {
 }
 
 .service-card {
-    background: var(--bg-white);
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
     overflow: hidden;
     box-shadow: var(--shadow-md);
@@ -768,7 +853,9 @@ ul {
 }
 
 .value-card {
-    background: var(--bg-light);
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     padding: 3rem 2rem;
     border-radius: 20px;
     text-align: center;
@@ -831,7 +918,9 @@ ul {
 }
 
 .qse-card {
-    background: var(--bg-white);
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     padding: 3rem 2rem;
     border-radius: 20px;
     box-shadow: var(--shadow-md);
@@ -1336,14 +1425,16 @@ ul {
    ============================================ */
 .partners {
     padding: 6rem 0;
-    background: var(--bg-light);
+    background: transparent;
 }
 
 .partners .container {
-    background: var(--bg-white);
+    background: rgba(255, 255, 255, 0.5);
     border-radius: 20px;
     padding: 4rem 3rem;
     box-shadow: var(--shadow-md);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .partners h2 {
@@ -1402,7 +1493,7 @@ ul {
    ============================================ */
 .contact-section {
     padding: 6rem 0;
-    background: var(--bg-light);
+    background: transparent;
 }
 
 .contact-container {
@@ -1448,7 +1539,9 @@ ul {
 }
 
 .contact-form {
-    background: var(--bg-white);
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     padding: 3rem;
     border-radius: 12px;
     box-shadow: var(--shadow-md);
