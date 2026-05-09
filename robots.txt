@@ -4,4 +4,4 @@ Disallow: /private/
 Disallow: /admin/
 Disallow: /temp/
 
-Sitemap: https://francefath.com/sitemap.xml
+Sitemap: https://likequality.com/sitemap.xml
